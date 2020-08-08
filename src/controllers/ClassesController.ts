@@ -38,6 +38,8 @@ export default class ClassesController {
       .where("classes.subject", "=", subject)
       .join("users", "classes.user_id", "=", "users.id")
       .select(["classes.*", "users.*"]);
+
+    return response.json(classes);
   }
 
   async create(request: Request, response: Response) {
