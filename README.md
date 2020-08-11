@@ -40,18 +40,15 @@
 
 ### Conexões
 
-- _Rota para lista o total de conexões realisadas._
-- _Rota para criar uma nova conexão._
+- Endpoint para criar uma nova conexão.
+- Endpoint para retornar o total de conexões realizadas.
 
 ### Aulas
 
-- _Rota para criar uma aula._
-- _Rota para listar aulas._
-  - _Filtrar por matéria, dia da semana, e horário._
+- Endpoint para criar uma aula.
+- Endpoint para listar aulas. Filtrando por matéria, dia da semana, e horário.
 
 ## :arrow_forward: **Passos para rodar **
-
-_com **yarn**_
 
 ```bash
 # Clonar o projeto
