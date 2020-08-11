@@ -21,3 +21,54 @@
 </div>
 
 ---
+
+
+<div align="center">
+
+# :globe_with_meridians: _**Server**_
+
+</div>
+
+### Tecnologias 
+- [**NodeJS**](https://nodejs.org/) 
+- [**Typescript**](https://www.typescriptlang.org/)
+- [**SQLite3**](https://sqlite.org/) 
+- [**Knex**](http://knexjs.org/)
+- [**Express**](http://expressjs.com/)
+
+## :pencil2: Funcionalidades
+
+### Conexões
+
+- _Rota para lista o total de conexões realisadas._
+- _Rota para criar uma nova conexão._
+
+### Aulas
+
+- _Rota para criar uma aula._
+- _Rota para listar aulas._
+  - _Filtrar por matéria, dia da semana, e horário._
+
+## :arrow_forward: **Passos para rodar **
+
+_com **yarn**_
+
+```bash
+# Clonar o projeto
+$ git clone https://github.com/lcassiol/nodejs-proffy.git
+
+# Instalar dependências
+$ yarn
+
+# Criar banco de dados
+$ yarn knex:migrate
+
+# Iniciar servidor de desenvolvimento
+$ yarn start
+```
+
+> O Banco de Dados fica salvo em [`src/database/database.sqlite`](src/database/database.sqlite)
+
+> O endereço padrão do servidor Node é [`http://localhost:3333`](http://localhost:3333) podendo ser alterado no arquivo /src/server.ts
+
+---
